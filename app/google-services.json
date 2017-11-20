@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "644889228435",
+    "firebase_url": "https://coinpryc.firebaseio.com",
+    "project_id": "coinpryc",
+    "storage_bucket": "coinpryc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644889228435:android:e0abae16131fa360",
+        "android_client_info": {
+          "package_name": "com.indianbitcoiner.coinpryc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644889228435-20vh33g9cnn04qshtqbi31kts1kjjir4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYwOSWv78Wn5pytbwrC0rfmy8H9Ljo_pA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

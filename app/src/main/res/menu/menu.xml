@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+     >
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+
+    <item
+        android:id="@+id/cpmenu"
+
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@drawable/logo_menu_white"
+        android:title="Coinpryc"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/usdmenu"
+
+        android:checkable="false"
+        android:enabled="true"
+        android:title="USD"
+        android:visible="true"
+        app:showAsAction="always|withText" />
+
+    <!-- Settings, should always be in the overflow -->
+    <item
+        android:id="@+id/inrmenu"
+        android:checkable="false"
+        android:enabled="true"
+        android:title="INR"
+        android:visible="true"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/altcoinmenu"
+        android:checkable="false"
+        android:enabled="true"
+        android:title="Altcoin"
+        android:visible="true"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/portfoliomenu"
+        android:checkable="false"
+        android:enabled="true"
+        android:title="Portfolio"
+        android:visible="true"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/investment"
+        android:checkable="false"
+        android:enabled="true"
+        android:title="Investment"
+        android:visible="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/newsmenu"
+        android:checkable="false"
+        android:enabled="true"
+        android:title="News"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rate"
+        android:checkable="false"
+        android:enabled="true"
+        android:title="Rate"
+        android:visible="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/about"
+        android:checkable="false"
+        android:enabled="true"
+        android:title="About"
+        android:visible="true"
+        app:showAsAction="never" />
+</menu>

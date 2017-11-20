@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.indianbitcoiner.coinpryc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_menu_color"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_menu_color"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ThirdActivity"
+            android:parentActivityName=".SecondActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.indianbitcoiner.coinpryc.SecondActivity" />
+        </activity>
+        <activity
+            android:name=".FourthActivity"
+            android:parentActivityName=".SecondActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.indianbitcoiner.coinpryc.SecondActivity" />
+        </activity>
+        <activity
+            android:name=".FifthActivity"
+            android:parentActivityName=".SecondActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.indianbitcoiner.coinpryc.SecondActivity" />
+        </activity>
+
+        <activity android:name=".AddActivity" />
+        <activity android:name=".DeleteActivity" />
+        <activity
+            android:name=".SixthActivity"
+            android:parentActivityName=".SecondActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.indianbitcoiner.coinpryc.SecondActivity" />
+        </activity>
+        <activity android:name=".AboutActivity" />
+
+        <activity android:name=".NewsActivity"></activity>
+
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="Zebpay">Zebpay</string>
+    <string name="Unocoin">Unocoin</string>
+    <string name="Coinsecure">Coinsecure</string>
+    <string name="Paxful">Paxful</string>
+    <string name="Coinbase">Coinbase</string>
+    <string name="Cex">Cex</string>
+    <string name="LakeBTC">LakeBTC</string>
+    <string name="Bitfinex">Bitfinex</string>
+    <string name="Bitstamp">Bitstamp</string>
+
+
+</resources>
